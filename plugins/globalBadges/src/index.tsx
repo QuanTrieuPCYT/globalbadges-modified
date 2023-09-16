@@ -113,6 +113,8 @@ export default {
               });
             }
             break;
+          // Intended to use on an Enmity-Vendetta hybrid client.
+          /*
           case "enmity":
             if (value?.supporter?.data) {
               pushBadge({
@@ -146,6 +148,7 @@ export default {
               });
             }
             break;
+          */
           case "goosemod":
             if (value?.sponsor) {
               pushBadge({
