@@ -15,6 +15,8 @@ export interface CustomBadges {
   bd: {
     dev: boolean;
   };
+  // Completely strips out Enmity badges
+  /*
   enmity: {
     supporter: {
       data: {
@@ -57,6 +59,7 @@ export interface CustomBadges {
       };
     };
   };
+  */
   goosemod: {
     sponsor: boolean;
     dev: boolean;
